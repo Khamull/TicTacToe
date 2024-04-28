@@ -4,35 +4,14 @@
     {
         static void Main(string[] args)
         {
-            TicTacToeBoard board = new TicTacToeBoard();
-
-            while (true)
+            do
             {
-                // Exibe o tabuleiro
-                board.DisplayBoard();
-                // Verifica se o jogo terminou
-                if (board.IsGameFinished())
-                    break;
-                // Obtém a entrada do jogador
-                Console.WriteLine($"Vez do jogador {board.GetCurrentPlayer()}. Digite a linha (0-2) e a coluna (0-2) separadas por espaço:");
+                TicTacToeBoard board = new TicTacToeBoard();
+                board.PlayGame();
+                Console.WriteLine("Deseja jogar novamente? (s/n)");
+            } while (Console.ReadLine().Trim().ToLower() == "s");
 
-                string[] input = Console.ReadLine().Split(' ');
-                if (input.Length != 2)
-                {
-                    Console.WriteLine("Entrada inválida. Por favor, digite novamente.");
-                    continue;
-                }
-
-                if (!int.TryParse(input[0], out int row) || !int.TryParse(input[1], out int col))
-                {
-                    Console.WriteLine("Entrada inválida. Por favor, digite números válidos.");
-                    continue;
-                }
-
-                // Tenta fazer o movimento
-                if (!board.MakeMove(row, col))
-                    continue;
-            }
+            Console.WriteLine("Obrigado por jogar! Até mais.");
             Console.ReadKey();
         }
     }
@@ -163,6 +142,38 @@
             }
 
             return false;
+        }
+        public void PlayGame()
+        {
+            while (true)
+            {
+                // Exibe o tabuleiro
+                DisplayBoard();
+
+                // Verifica se o jogo terminou
+                if (IsGameFinished())
+                    break;
+
+                // Obtém a entrada do jogador
+                Console.WriteLine($"Vez do jogador {GetCurrentPlayer()}. Digite a linha (0-2) e a coluna (0-2) separadas por espaço:");
+                string[] input = Console.ReadLine().Split(' ');
+
+                if (input.Length != 2)
+                {
+                    Console.WriteLine("Entrada inválida. Por favor, digite novamente.");
+                    continue;
+                }
+
+                if (!int.TryParse(input[0], out int row) || !int.TryParse(input[1], out int col))
+                {
+                    Console.WriteLine("Entrada inválida. Por favor, digite números válidos.");
+                    continue;
+                }
+
+                // Tenta fazer o movimento
+                if (!MakeMove(row, col))
+                    continue;
+            }
         }
     }
 }

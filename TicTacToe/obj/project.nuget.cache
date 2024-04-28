@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6+rl4A9U3J2beuT0EdBw6we2nv8RPzTC3sluou56oB9o9V+9f/b0Brl0C3Yuv8k6OYlrnj8BNNuN3oXjjKO23Q==",
+  "dgSpecHash": "ni2krCgkL5iCXcxQN95Eca7nYqZCL8mMMHkNlC/mW9UJl3RZeFVsQXst0YvPr4CcJ+BKgkzy8eYdjGqRPzHW4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\TicTacToe.csproj",
+  "projectFilePath": "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

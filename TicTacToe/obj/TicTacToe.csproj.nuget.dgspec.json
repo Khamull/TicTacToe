@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\TicTacToe.csproj": {}
+    "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\TicTacToe.csproj": {
+    "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\e3301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\e3301\\Desktop\\Study\\C# From Zero to Hero\\TicTacToe\\obj\\",
+        "outputPath": "C:\\Users\\e3301\\Desktop\\Study\\TicTacToe\\TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
