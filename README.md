@@ -31,7 +31,7 @@ With over a decade of experience in the IT industry, I bring a wealth of experti
 I approach challenges with a persistent, proactive and positive mindset.
 
 
-## Other Common Github Profile Sections
+## More About Me
 👩‍💻 https://github.com/Khamull
 
 🧠 https://shorturl.at/qJR18
